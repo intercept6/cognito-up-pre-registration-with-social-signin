@@ -1,0 +1,7 @@
+{
+  "CognitoUpPreRegistrationWithSocialSigninStack": {
+    "userPoolWebClientId": "7l7nrb13cijutc3c2684ckk3i4",
+    "domain": "up-pre-registration-social-sign-in",
+    "userPoolId": "ap-northeast-1_8czfjIA9Y"
+  }
+}

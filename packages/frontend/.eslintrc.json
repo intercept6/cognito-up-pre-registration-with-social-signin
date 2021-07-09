@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "./node_modules/gts/",
+    "react-app",
+    "react-app/jest",
+    "plugin:react/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

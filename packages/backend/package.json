@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "test": "jest",
+    "cdk": "cdk",
+    "deploy": "cdk deploy -O ../frontend/src/output.json",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "fix": "gts fix"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.112.0",
+    "@aws-cdk/aws-cognito": "1.112.0",
+    "@aws-cdk/aws-dynamodb": "^1.112.0",
+    "@aws-cdk/aws-lambda-nodejs": "1.112.0",
+    "@types/aws-lambda": "^8.10.78",
+    "@types/jest": "^26.0.10",
+    "@types/node": "^16.3.0",
+    "aws-cdk": "1.112.0",
+    "gts": "^3.1.0",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.2.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "1.112.0",
+    "@aws-sdk/client-dynamodb": "^3.21.0",
+    "source-map-support": "^0.5.16"
+  }
+}
